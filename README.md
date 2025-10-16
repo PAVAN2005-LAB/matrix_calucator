@@ -36,3 +36,7 @@ Built using **pure HTML, CSS, and JavaScript** — no external libraries require
 
 ## 📁 Project Structure
 
+## 🌐 Live Demo
+👉 [Matrix Calculator](https://pavan2005-lab.github.io/matrix_calucator/)
+
+
