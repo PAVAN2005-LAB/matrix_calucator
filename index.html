@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matrix Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Matrix Calculator</h1>
+
+    <div class="matrix-inputs">
+      <div>
+        <h2>Matrix A</h2>
+        <textarea id="matrixA" placeholder="Enter Matrix A (rows separated by new line, values by space)"></textarea>
+      </div>
+      <div>
+        <h2>Matrix B</h2>
+        <textarea id="matrixB" placeholder="Enter Matrix B (rows separated by new line, values by space)"></textarea>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="addMatrix()">Add</button>
+      <button onclick="subtractMatrix()">Subtract</button>
+      <button onclick="multiplyMatrix()">Multiply</button>
+      <button onclick="determinantMatrix('A')">Det(A)</button>
+      <button onclick="determinantMatrix('B')">Det(B)</button>
+      <button onclick="transposeMatrix('A')">Transpose(A)</button>
+      <button onclick="transposeMatrix('B')">Transpose(B)</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
