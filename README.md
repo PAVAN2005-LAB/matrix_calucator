@@ -22,15 +22,6 @@ Built using **pure HTML, CSS, and JavaScript** — no external libraries require
 - Instant calculation without reloading the page.
 - Fully responsive design for desktops and tablets.
 
----
-
-## 📸 Screenshots
-
-*(Add images after deployment)*
-
-| Matrix Input | Result Example |
-|---------------|----------------|
-| ![Input](https://via.placeholder.com/300x150?text=Matrix+Input) | ![Result](https://via.placeholder.com/300x150?text=Result+Output) |
 
 ---
 
